@@ -1,5 +1,5 @@
 import React from "react";
-export default function SearchNoRes() {
+export default function SearchNoForReservation() {
   return (
     <table className="table">
       <thead>
