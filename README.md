@@ -1,6 +1,5 @@
-# Capstone: Restaurant Reservation System
-This application was built for restaurant personnel so that they may keep track of customer reservations. It allows them to search, add, and seat reservations while also keeping track of open tables and completing reservations once finished.
 
+<<<<<<< HEAD
 ## Technology
 
 - Built with React.js, JSX, HTML, CSS, Bootstrap, Expressjs, Node.js, Git, Heroku, ElephantSQL, PostgreSQL.
@@ -39,3 +38,5 @@ This application was built for restaurant personnel so that they may keep track 
 ### Edit a Reservation:
 
 ![Edit-a-Reservation]()
+=======
+>>>>>>> f3aad98cfc03bca999599162f9732b402c70c553
