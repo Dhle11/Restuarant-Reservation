@@ -47,6 +47,7 @@ import TableList from "../tables/TableList";
     listReservations({ date }, abortController.signal)
       .then(setReservations)
       .catch(setReservationsError);
+
     listTables(abortController.signal)
       .then(setTables)
       .catch(setReservationsError);

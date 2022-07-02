@@ -19,7 +19,7 @@ export default function ReservationForm({
             type="text"
             className="form-control"
             required
-            placeholder ="Enter First Name Here"
+            placeholder ="Enter First Name"
             onChange={handleChange}
             value={formData.first_name}
           />
@@ -32,7 +32,7 @@ export default function ReservationForm({
             type="text"
             className="form-control"
             required
-            placeholder="Enter Last Name Here"
+            placeholder="Enter Last Name"
             onChange={handleChange}
             value={formData.last_name}
           />
@@ -45,7 +45,7 @@ export default function ReservationForm({
             type="text"
             className="form-control"
             required
-            placeholder="Enter Mobile Number Here"
+            placeholder="Enter Mobile Number"
             onChange={handleChange}
             value={formData.mobile_number}
           />
@@ -75,7 +75,7 @@ export default function ReservationForm({
           />
         </div>
         <div className="form-data">
-          <label htmlFor="people">Set Number of Guests:</label>
+          <label htmlFor="people">Number of Guests:</label>
           <input
             id="people"
             name="people"

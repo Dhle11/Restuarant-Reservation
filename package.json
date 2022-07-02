@@ -50,7 +50,11 @@
   "license": "UNLICENSED",
   "dependencies": {
     "bootstrap-icons": "^1.8.3",
+    "dotenv": "^16.0.1",
+    "encoding": "^0.1.13",
+    "knex": "^2.1.0",
     "normalize.css": "^8.0.1",
+    "pg": "^8.7.3",
     "react-icons": "^4.4.0"
   }
 }

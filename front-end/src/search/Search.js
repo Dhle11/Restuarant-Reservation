@@ -15,7 +15,7 @@ export default function SearchPage() {
     setMobileNumber(event.target.value);
   };
 
-  const handleFind = (event) => {
+  const findReservation = (event) => {
     event.preventDefault();
     const ac = new AbortController();
     function findReservations() {
@@ -47,7 +47,7 @@ export default function SearchPage() {
             name="mobile_number"
             type="text"
             required
-            placeholder="Enter Mobile Number"
+            placeholder="Enter Phone Number"
             onChange={handleChange}
             value={mobileNumber}
           />
@@ -56,7 +56,7 @@ export default function SearchPage() {
           <button
             className="btn btn-outline-dark"
             type="submit"
-            onClick={handleFind}
+            onClick={findReservation}
           >Find
           </button>
         </div>
