@@ -7,6 +7,7 @@ You should not need to make changes to the ./front-end/.env file unless you want
 Run npm install to install project dependencies.
 Run npm run start:dev to start your server in development mode.
 
+<<<<<<< HEAD
 ## Technology
 
 - Built with React.js, JSX, HTML, CSS, Bootstrap, Expressjs, Node.js, Git, Heroku, ElephantSQL, PostgreSQL.
@@ -47,3 +48,5 @@ Run npm run start:dev to start your server in development mode.
 ![Edit-a-Reservation]()
 =======
 >>>>>>> f3aad98cfc03bca999599162f9732b402c70c553
+=======
+>>>>>>> c16411d2236ad80058cccff2adb0e0bb8a9206cf
