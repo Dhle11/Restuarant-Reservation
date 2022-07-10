@@ -1,27 +1,37 @@
+A restaurant's existing reservations can be tracked with this app. The app will show all reservations for today, and you can use the option to view reservations for upcoming dates. It offers an easy-to-use user interface for adding new tables and making changes to reservations. Users can utilize the search interface on their mobile device to look up all reservations, whether recent and old.
+
+Live demo: [Link]()
+
+
 ## Installation
-Fork and clone this repository.
-Run cp ./back-end/.env.sample ./back-end/.env.
-Update the ./back-end/.env file with the connection URL's to your ElephantSQL database instance.
-Run cp ./front-end/.env.sample ./front-end/.env.
-You should not need to make changes to the ./front-end/.env file unless you want to connect to a backend at a location other than http://localhost:5001.
-Run npm install to install project dependencies.
-Run npm run start:dev to start your server in development mode.
+
+1. Fork and clone this repository.
+1. Run `cp ./back-end/.env.sample ./back-end/.env`.
+1. Update the `./back-end/.env` file with the connection URL's to your database instances.
+1. Run `cp ./front-end/.env.sample ./front-end/.env`.
+1. You should not need to make changes to the `./front-end/.env` file unless you want to connect to a backend at a location other than `http://localhost:5000`.
+1. Run `npm install` to install project dependencies.
+1. Run `npm run start:dev` to start your server in development mode if you wish to make changes.
+1. When pushing to your deployed app be sure to make use of the git subtree push --prefix <file> console command. This is important because this respository is a monorepo containing both front and back end.
+1. After deploying with your chosen host be sure to set your `env` files up in your back-end and front-end.  
+
 
 <<<<<<< HEAD
 ## Technology
 
-- Built with React.js, JSX, HTML, CSS, Bootstrap, Expressjs, Node.js, Git, Heroku, ElephantSQL, PostgreSQL.
-
-
-## Links
-
-[Deployed Version](https)
-
+* HTML
+* CSS
+* React
+* Javascript
+* Node.js
+* Express
+* Knex  
+* Postgres 
 
 ## Screenshots: 
-### Dashboard:
+#### Dashboard:
 
-![Dashboard]()
+![Dashboard screenshot]()
 
 ### Create a New Reservation:
 
@@ -46,7 +56,3 @@ Run npm run start:dev to start your server in development mode.
 ### Edit a Reservation:
 
 ![Edit-a-Reservation]()
-=======
->>>>>>> f3aad98cfc03bca999599162f9732b402c70c553
-=======
->>>>>>> c16411d2236ad80058cccff2adb0e0bb8a9206cf
