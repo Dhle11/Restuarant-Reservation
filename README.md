@@ -31,28 +31,32 @@ Live demo: [Link]()
 ## Screenshots: 
 #### Dashboard:
 
-![Dashboard screenshot]()
+![Dashboard screenshot](screenshots/Dashboard.png)
 
-### Create a New Reservation:
+#### Create a New Reservation:
 
-![Create-a-New-Reservation]()
+![Create-a-New-Reservation](screenshots/Create_new_reservation.png)
 
-### Create a New Table:
+#### After Create a New Reservation:
 
-![Create-a-New-Table]()
+![After Create a New Reservation](screenshots/Dashboard_after_new_reservation_created.png)
 
-### Seat a Reservation:
+#### Create a New Table:
 
-![Seat-a-Reservation]()
+![Create-a-New-Table](screenshots/create_table.png)
 
-### Finish an Occupied Table:
+#### Seat a Reservation:
 
-![Finish-an-Occupied-Table]()
+![Seat-a-Reservation](screenshots/seat_a_reservation.png)
 
-### Cancel a Reservation:
+#### Finish an Occupied Table:
 
-![Cancel-a-Reservation]()
+![Finish-an-Occupied-Table](screenshots/finish_button.png)
 
-### Edit a Reservation:
+#### Cancel a Reservation:
 
-![Edit-a-Reservation]()
+![Cancel-a-Reservation](screenshots/cancel_button.png)
+
+#### Edit a Reservation:
+
+![Edit-a-Reservation](screenshots/edit_reservation.png)
