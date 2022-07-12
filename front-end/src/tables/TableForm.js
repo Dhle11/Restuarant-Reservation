@@ -9,7 +9,7 @@ export default function TableForm({
 }) {
   return (
     <div>
-      <h1>{title} Table</h1>
+      <h1>{title}Table</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="table_name">
           Table Name:
@@ -36,11 +36,11 @@ export default function TableForm({
           />
         </label>
         <div>
-          <button className="btn btn-outline-dark mr-2" type="submit">
+          <button className="btn btn-success mr-2" type="submit">
             Submit
           </button>
           <button
-            className="btn btn-outline-dark"
+            className="btn btn-warning"
             type="button"
             onClick={handleCancel}
           >

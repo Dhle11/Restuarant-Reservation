@@ -44,9 +44,9 @@ export default function CreateReservation() {
     formData.people = parseInt(formData.people);
     formData.reservation_date = formData.reservation_date.split("T")[0];
     try {
-      await createReservation(formData, ac.signal);
+      await createReservation (formData, ac.signal);
       setErrors({});
-      history.push(`/dashboard?date=${formData.reservation_date}`);
+      history.push(`/dashboard?date=${ formData.reservation_date }`);
     } catch (error) {
       if (!errors[error.message]) {
         setErrors({ ...errors, [error.message]: 1 });
@@ -57,7 +57,8 @@ export default function CreateReservation() {
 
   return (
     <>
-      <div className="createErrors">{errorMap ? errorMap : null}</div>
+      <div className="createErrors">{errorMap ? errorMap : null}
+      </div>
       <ReservationForm
         mode={"Create"}
         handleChange={handleChange}

@@ -15,7 +15,7 @@ export default function EditReservation() {
     setErrors({ ...errors });
   };
 
-  const errorMap = Object.keys(errors).map((error, index) => (
+  const errorMap = Object.keys(errors).map((error) => (
     <Error key={`error-${error}`} error={error} handleErrorClose={handleErrorClose} />
   ));
 

@@ -13,7 +13,7 @@ import TableList from "../tables/TableList";
  *  the date for which the user wants to view reservations.
  * @returns {JSX.Element}
  */
- function Dashboard({ date }) {
+function Dashboard({ date }) {
   const [reservations, setReservations] = useState([]);
   const [tables, setTables] = useState([]);
   const [reservationsError, setReservationsError] = useState(null);
@@ -25,11 +25,6 @@ import TableList from "../tables/TableList";
 
   useEffect(loadDashboard, [date, pageDate]);
 
-  const nextDateHandler = () => {
-    setPageDate(next(pageDate));
-    history.push(`/dashboard?date=${next(pageDate)}`);
-  };
-
   const previousDateHandler = () => {
     setPageDate(previous(pageDate));
     history.push(`/dashboard?date=${previous(pageDate)}`);
@@ -38,6 +33,11 @@ import TableList from "../tables/TableList";
   const todayHandler = () => {
     setPageDate(date);
     history.push(`/dashboard?date=${date}`);
+  };
+
+  const nextDateHandler = () => {
+    setPageDate(next(pageDate));
+    history.push(`/dashboard?date=${next(pageDate)}`);
   };
 
   function loadDashboard() {
@@ -60,16 +60,19 @@ import TableList from "../tables/TableList";
         <h1>Dashboard</h1>
       </div>
       <div className=" dashboard dashboard-info d-md-flex mb-3 row ml-1">
-        <h4 className="mb-0">Reservations for date {pageDate}</h4>
+        <h4 className="mb-0">Reservations for date: {pageDate}</h4>
       </div>
       <div className="dashboard dashboard-nav row ml-1 mb-4">
-        <button className="btn btn-outline-dark mr-2" onClick={previousDateHandler}>
+        <button
+          className="btn btn-outline-danger mr-2"
+          onClick={previousDateHandler}
+        >
           Previous
         </button>
-        <button className="btn btn-outline-dark mr-2" onClick={todayHandler}>
+        <button className="btn btn-outline-info mr-2" onClick={todayHandler}>
           Today
         </button>
-        <button className="btn btn-outline-dark" onClick={nextDateHandler}>
+        <button className="btn btn-outline-success" onClick={nextDateHandler}>
           Next
         </button>
       </div>

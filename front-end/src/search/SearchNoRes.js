@@ -1,4 +1,6 @@
 import React from "react";
+
+
 export default function SearchNoForReservation() {
   return (
     <table className="table">

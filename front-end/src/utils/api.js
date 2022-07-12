@@ -8,7 +8,6 @@ import formatReservationTime from "./format-reservation-date";
 const API_BASE_URL =
   process.env.REACT_APP_API_BASE_URL || "http://localhost:5001";
 
-//const API_BASE_URL = "http://localhost:5001"
 /**
  * Defines the default headers for these functions to work with `json-server`
  */
@@ -21,7 +20,7 @@ headers.append("Content-Type", "application/json");
  * This function is NOT exported because it is not needed outside of this file.
  *
  * @param url
- *  the url for the request.
+ *  the url for the requst.
  * @param options
  *  any options for fetch
  * @param onCancel
@@ -117,16 +116,16 @@ export async function seatReservation(reservation_id, table_id, signal) {
     headers,
     signal,
   };
-  return await fetchJson(url, options, []);
+  return await fetchJson(url, options, {});
 }
 
 export async function finishTable(table_id) {
   const url = `${API_BASE_URL}/tables/${table_id}/seat`;
   const options = {
     method: "DELETE",
-    body: JSON.stringify({ data: { table_id } }),
+    headers,
   };
-  return await fetchJson(url, options, []);
+  return await fetchJson(url, options, {});
 }
 
 export async function editReservation(reservation, signal) {

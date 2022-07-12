@@ -54,7 +54,7 @@ export default function SearchPage() {
         </label>
         <div className="input-group mb-3">
           <button
-            className="btn btn-outline-dark"
+            className="btn btn-info"
             type="submit"
             onClick={findReservation}
           >Find

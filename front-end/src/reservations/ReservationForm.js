@@ -89,13 +89,13 @@ export default function ReservationForm({
         </div>
         <div className="form-group mt-3">
           <button
-            className="btn btn-outline-dark mr-2"
+            className="btn btn-warning mr-2"
             type="button"
             onClick={handleCancel}
           >
           Cancel
           </button>
-          <button className="btn btn-outline-dark" type="submit">
+          <button className="btn btn-success" type="submit">
           Submit
           </button>
         </div>

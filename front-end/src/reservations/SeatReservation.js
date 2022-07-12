@@ -98,7 +98,11 @@ export default function SeatReservation() {
             </button>
           </div>
           <div>
-            <button type="submit" className="btn btn-primary" onClick={handleSubmit}>
+            <button
+              type="submit"
+              className="btn btn-primary"
+              onClick={handleSubmit}
+            >
               <FaCheck /> Submit
             </button>
           </div>
