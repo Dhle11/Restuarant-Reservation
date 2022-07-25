@@ -1,6 +1,6 @@
 A restaurant's existing reservations can be tracked with this app. The app will show all reservations for today, and you can use the option to view reservations for upcoming dates. It offers an easy-to-use user interface for adding new tables and making changes to reservations. Users can utilize the search interface on their mobile device to look up all reservations, whether recent and old.
 
-Live demo: [Link]()
+Live demo: 
 
 
 ## Installation
@@ -16,7 +16,6 @@ Live demo: [Link]()
 1. After deploying with your chosen host be sure to set your `env` files up in your back-end and front-end.  
 
 
-<<<<<<< HEAD
 ## Technology
 
 * HTML
