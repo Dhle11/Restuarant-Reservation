@@ -28,34 +28,3 @@ Live demo:
 * Postgres 
 
 ## Screenshots: 
-#### Dashboard:
-
-![Dashboard screenshot](screenshots/Dashboard.png)
-
-#### Create a New Reservation:
-
-![Create-a-New-Reservation](screenshots/Create_new_reservation.png)
-
-#### After Create a New Reservation:
-
-![After Create a New Reservation](screenshots/Dashboard_after_new_reservation_created.png)
-
-#### Create a New Table:
-
-![Create-a-New-Table](screenshots/create_table.png)
-
-#### Seat a Reservation:
-
-![Seat-a-Reservation](screenshots/seat_a_reservation.png)
-
-#### Finish an Occupied Table:
-
-![Finish-an-Occupied-Table](screenshots/finish_button.png)
-
-#### Cancel a Reservation:
-
-![Cancel-a-Reservation](screenshots/cancel_button.png)
-
-#### Edit a Reservation:
-
-![Edit-a-Reservation](screenshots/edit_reservation.png)
